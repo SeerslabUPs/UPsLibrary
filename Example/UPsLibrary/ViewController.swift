@@ -16,6 +16,9 @@ class ViewController: UIViewController {
     
     let test = TestClass()
     test.Log()
+    
+    let upsPrint = UPsPrint()
+    upsPrint.byePrint()
   }
 }
 

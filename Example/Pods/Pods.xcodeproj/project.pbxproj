@@ -13,6 +13,7 @@
 		9E6836F8061542FA77745E89FCD0C88F /* UPsLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFC51FCF65AD85D4870A581E28FB07E /* UPsLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A920A9DF2ED136013703CFFB5C0E2F77 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DA0896AD1227E6E0A01674EE331C88 /* ReplaceMe.swift */; };
 		B289C01E263477E6228D76D7BBEFB59E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BDDA12A926B289F000AF5A9D /* UPsPrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDA12A826B289F000AF5A9D /* UPsPrint.swift */; };
 		C53899CD15938248E0C0626F5D1082BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		D15D2C16A973B8AF0AF87FD6203D810F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		D5F032ED00E20BB4B31E0F1342D9290E /* UPsLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3B14C95498A4B008648D3E246DBB4D /* UPsLibrary-dummy.m */; };
@@ -40,31 +41,32 @@
 		0672AE4828F4279DFD20481311079E74 /* Pods-UPsLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UPsLibrary_Example-dummy.m"; sourceTree = "<group>"; };
 		2026D1EEB169E7FC195226993CE04EEA /* Pods-UPsLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UPsLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		21DC2685BA018794709877356122DB78 /* Pods-UPsLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UPsLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
-		2812CB4C60A56991F693C8B408EED5D0 /* UPsLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UPsLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		28752227024778954B52F90A866FA24F /* Pods_UPsLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UPsLibrary_Example.framework; path = "Pods-UPsLibrary_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2812CB4C60A56991F693C8B408EED5D0 /* UPsLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = UPsLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		28752227024778954B52F90A866FA24F /* Pods_UPsLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UPsLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3478A978AEE03208222D4CD53F17DA55 /* Pods-UPsLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UPsLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3B04B924E68068E47841A5E562E654E6 /* Pods-UPsLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UPsLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		418DCE762C67E055A975F00357C6F9CF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		418DCE762C67E055A975F00357C6F9CF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		48DA0896AD1227E6E0A01674EE331C88 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = UPsLibrary/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		4D3B14C95498A4B008648D3E246DBB4D /* UPsLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UPsLibrary-dummy.m"; sourceTree = "<group>"; };
 		50B2B77CE211B110C1D77E65B010F44A /* Pods-UPsLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UPsLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
 		54C55768E2C2C1F6C65F7AC3A0EEE457 /* Pods-UPsLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UPsLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5A29370432EE2D3286AF480CDDEA78AD /* UPsLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UPsLibrary.modulemap; sourceTree = "<group>"; };
 		685908CAC1CEC22009065355FC1EE039 /* Pods-UPsLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UPsLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6CAC97326EA8D11DB4FCC65151977874 /* Pods_UPsLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UPsLibrary_Tests.framework; path = "Pods-UPsLibrary_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CAC97326EA8D11DB4FCC65151977874 /* Pods_UPsLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UPsLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CB0B26ECC875C1FBA3B27BC2C2FCDE0 /* UPsLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UPsLibrary-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		88F3C15F8650142346F43A16EDAEBBEA /* UPsLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UPsLibrary.framework; path = UPsLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88F3C15F8650142346F43A16EDAEBBEA /* UPsLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UPsLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D25D72513A9FCF88DDA9D099FFDF9BF /* Pods-UPsLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UPsLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9315D1DDCC4967381879C23BB1301B84 /* Pods-UPsLibrary_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UPsLibrary_Example-Info.plist"; sourceTree = "<group>"; };
 		9BFC51FCF65AD85D4870A581E28FB07E /* UPsLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UPsLibrary-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A41F844ECBEF6D33ABD2A48A84EAF027 /* Pods-UPsLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UPsLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A4845AA9CCB33CF3003D0640A46A9A7F /* UPsLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UPsLibrary.debug.xcconfig; sourceTree = "<group>"; };
 		AF47F3C286E829F09328B21E935F85B5 /* Pods-UPsLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UPsLibrary_Example.modulemap"; sourceTree = "<group>"; };
 		BAF37C8D2E4C5124B553C91D3298F774 /* Pods-UPsLibrary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UPsLibrary_Tests-Info.plist"; sourceTree = "<group>"; };
 		BB6633256D6705FC38934502FCBFCC67 /* Pods-UPsLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UPsLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
-		C71841403CD9B0FE8E54BAF6D49D0312 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BDDA12A826B289F000AF5A9D /* UPsPrint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UPsPrint.swift; path = UPsLibrary/Classes/UPsPrint.swift; sourceTree = "<group>"; };
+		C71841403CD9B0FE8E54BAF6D49D0312 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CC26220E6AA83ADFAC8E4441A560D153 /* Pods-UPsLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UPsLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D15381CE5CD759BC47BDAD971169FAC1 /* Pods-UPsLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UPsLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D25E4B176782AAB91DD754616851E0DE /* UPsLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UPsLibrary-prefix.pch"; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				48DA0896AD1227E6E0A01674EE331C88 /* ReplaceMe.swift */,
+				BDDA12A826B289F000AF5A9D /* UPsPrint.swift */,
 				48554187B744F89B1B431D1F6D2627A5 /* Pod */,
 				C9148354D5665BF25DD4950DE1F0A8AB /* Support Files */,
 			);
@@ -316,7 +319,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					280B5044E4A23E6083BEAF43C1E1FDE2 = {
+						LastSwiftMigration = 1250;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -369,6 +377,7 @@
 			files = (
 				A920A9DF2ED136013703CFFB5C0E2F77 /* ReplaceMe.swift in Sources */,
 				D5F032ED00E20BB4B31E0F1342D9290E /* UPsLibrary-dummy.m in Sources */,
+				BDDA12A926B289F000AF5A9D /* UPsPrint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +430,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-UPsLibrary_Tests/Pods-UPsLibrary_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-UPsLibrary_Tests/Pods-UPsLibrary_Tests.modulemap";
@@ -454,7 +463,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-UPsLibrary_Example/Pods-UPsLibrary_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-UPsLibrary_Example/Pods-UPsLibrary_Example.modulemap";
@@ -524,7 +533,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -552,7 +561,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/UPsLibrary/UPsLibrary-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/UPsLibrary/UPsLibrary-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/UPsLibrary/UPsLibrary.modulemap";
 				PRODUCT_MODULE_NAME = UPsLibrary;
@@ -560,7 +569,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -583,7 +592,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-UPsLibrary_Example/Pods-UPsLibrary_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-UPsLibrary_Example/Pods-UPsLibrary_Example.modulemap";
@@ -616,7 +625,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-UPsLibrary_Tests/Pods-UPsLibrary_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-UPsLibrary_Tests/Pods-UPsLibrary_Tests.modulemap";
@@ -648,7 +657,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/UPsLibrary/UPsLibrary-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/UPsLibrary/UPsLibrary-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/UPsLibrary/UPsLibrary.modulemap";
 				PRODUCT_MODULE_NAME = UPsLibrary;
@@ -656,7 +665,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -713,13 +722,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
