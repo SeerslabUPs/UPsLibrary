@@ -1,0 +1,6 @@
+framework module Pods_UPsLibrary_Example {
+  umbrella header "Pods-UPsLibrary_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

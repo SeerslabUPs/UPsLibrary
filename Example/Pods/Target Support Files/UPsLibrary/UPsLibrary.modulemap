@@ -1,0 +1,6 @@
+framework module UPsLibrary {
+  umbrella header "UPsLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}
