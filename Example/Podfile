@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'UPsLibrary_Example' do
+  pod 'UPsLibrary', :path => '../'
+
+  target 'UPsLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
